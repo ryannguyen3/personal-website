@@ -1,0 +1,41 @@
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 2rem;
+  width: 100%;
+  color: beige;
+  scroll-margin-top: 80px;
+}
+
+/* This is the inner content box */
+.section .content {
+  max-width: 800px;       
+  width: 80%;             
+  margin: 0 auto;         
+  line-height: 1.6;      
+}
+
+.about-section {
+    justify-content: center;
+}
+
+.projects-section {
+  color: white;
+  padding: 4rem 2rem;
+}
+
+.intro-section {
+  padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .section .content {
+    width: 90%;
+    max-width: 600px;
+  }
+}
+
+
