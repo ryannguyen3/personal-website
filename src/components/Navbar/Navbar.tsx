@@ -5,10 +5,18 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <ul className="nav-links">
-        <li><a href="#About">About</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects/Experiences</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a className="resume-btn" href="/resume.pdf" target="_blank">Resume</a></li>
+        <li>
+          <a
+            href="/My Resume 2025.docx.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </li>
       </ul>
 
       <ul className="nav-icons">

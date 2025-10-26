@@ -12,6 +12,7 @@
   right: 0;
   box-sizing: border-box;
   z-index: 1000;
+  backdrop-filter: blur(8px);
 }
 
 .nav-links, .nav-icons {
