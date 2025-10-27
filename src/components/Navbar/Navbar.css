@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #222;
+  background-color: #111;
+  /* 222 is other black color */
   color: white;
   padding: 0 2rem;
   height: 64px;
@@ -37,5 +38,5 @@
 
 .nav-links a:hover,
 .nav-icons a:hover {
-  color: #9fc1ff;
+  color: #d4bfff;
 }
